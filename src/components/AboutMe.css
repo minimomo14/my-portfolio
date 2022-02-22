@@ -1,6 +1,6 @@
 .AboutMe {
-    background-color: var(--extra-dark-brown);
-    color: white;
+    background-color: var(--abalone);
+    color: var(--dark-brown);
     width: 75%;
     border-radius: 1rem;
     padding: 1rem;
@@ -9,6 +9,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.AboutMe h1 {
+    font-family: 'Dancing Script', cursive;
 }
 
 .aboutmeContainer {

@@ -7,7 +7,7 @@ function AboutMe() {
         <img
           className="profileImage"
           src="https://scontent-ort2-1.xx.fbcdn.net/v/t39.30808-6/240716595_10223533702023037_1289824671614962031_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=GuNoxcL0XBQAX-RTTty&tn=cIqsz2ekovlB_Bzi&_nc_ht=scontent-ort2-1.xx&oh=00_AT9QddBih7dZ3WZoAQTw1bsoK7UZYL9KlPfMrqW4o2Cj7A&oe=6219A14F"
-          alt="profile-image"
+          alt=""
         />
         <h1>About Me</h1>
         <p>
