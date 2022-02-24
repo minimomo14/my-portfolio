@@ -1,0 +1,16 @@
+.contactMe {
+    background-color: var(--medium-brown);
+    color: var(--cream);
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 80%;
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contactMe h1 {
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,28 +1,28 @@
-.AboutMe {
-    background-color: var(--abalone);
+.aboutMe {
+    background-color: var(--white);
     color: var(--dark-brown);
-    width: 75%;
+    width: 80%;
     border-radius: 1rem;
     padding: 1rem;
-    margin: 0 auto;
+    margin: 1.2rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.AboutMe h1 {
-    font-family: 'Dancing Script', cursive;
+.aboutMe h1 {
+    font-family: 'Poppins', sans-serif;
 }
 
-.aboutmeContainer {
+.aboutMe-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.AboutMe .profileImage {
+.aboutMe .profileImage {
     max-width: 400px;
     max-height: 400px;
     padding: .5rem;
@@ -32,7 +32,7 @@
     transition: all 200s ease-in-out;
 }
 
-.AboutMe .profileImage:hover .profileImage:focus {
+.aboutMe .profileImage:hover .profileImage:focus {
     transform: scale(1.05);
     box-shadow: 0px 0px 15px #e4e3e3;
   }

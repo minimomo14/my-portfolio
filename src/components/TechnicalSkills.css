@@ -1,6 +1,6 @@
-.resume .resume-container {
-    background-color: var(--white);
-    color: var(--dark-brown);
+.technicalSkills {
+    background-color: var(--light-brown);
+    color: var(--dark);
     width: 80%;
     border-radius: 1rem;
     padding: 1rem;
@@ -11,6 +11,6 @@
     align-items: center;
 }
 
-.resume h1 {
+.technicalSkills h1 {
     font-family: 'Poppins', sans-serif;
 }

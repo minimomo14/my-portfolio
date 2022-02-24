@@ -2,13 +2,11 @@ import "./AboutMe.css";
 
 function AboutMe() {
   return (
-    <div className="AboutMe">
-      <div className="aboutmeContainer">
-        <img
-          className="profileImage"
-          src="https://scontent-ort2-1.xx.fbcdn.net/v/t39.30808-6/240716595_10223533702023037_1289824671614962031_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=GuNoxcL0XBQAX-RTTty&tn=cIqsz2ekovlB_Bzi&_nc_ht=scontent-ort2-1.xx&oh=00_AT9QddBih7dZ3WZoAQTw1bsoK7UZYL9KlPfMrqW4o2Cj7A&oe=6219A14F"
-          alt=""
-        />
+    <div className="aboutMe">
+        {/* Main Section */}
+      <div className="aboutMe-container">
+      <img className="profileImage" src={`${process.env.PUBLIC_URL}/image/momo.png`} alt="" />
+        <div className="aboutMe-text">
         <h1>About Me</h1>
         <p>
           Hi there! I'm Momo Miller, a frontend web developer. I graduated from
@@ -27,6 +25,7 @@ function AboutMe() {
           developers working alongside me.
         </p>
         <button type="submit">Work with me</button>
+        </div>
       </div>
     </div>
   );
