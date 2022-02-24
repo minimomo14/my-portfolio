@@ -4,6 +4,18 @@ import "./Homepage.css";
 function Homepage() {
   return (
     <div className="homepage">
+        <h1>Hello, I'm Momo Miller</h1>
+      <img
+        className="headerImage"
+        src="https://i.pinimg.com/564x/89/53/00/8953008f5a46f0573d7f2abfcae6412b.jpg"
+        alt=""
+      />
+      <p className="headerText-content">
+        Frontend Web Developer
+        <button className="view-button">
+          <a href="/">view my portfolio</a>
+        </button>
+      </p>
       {/* Body Section * Create click image for each */}
       <div className="homepage-links">
         <Link to={"/about-me"}>
