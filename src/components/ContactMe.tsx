@@ -1,9 +1,9 @@
+import React from "react";
 import "./ContactMe.css";
 
 function ContactMe() {
   return (
     <div className="contactMe">
-      <div className="contactMe-container">
         <h1>My Contact Information</h1>
         <p>Momo Miller</p>
         <p>mobile:810-599-4690</p>
@@ -12,12 +12,23 @@ function ContactMe() {
         <br />
         <div className="sendMe-emailForm">
           <form action="">
-            <label htmlFor=""></label>
+            <label htmlFor="">FullName</label>
+            <input type="text" placeholder="Enter your name here" />
+            <br />
+            <label htmlFor="">Email</label>
+            <input type="text" placeholder="Enter your email" />
+            <br />
+            <label htmlFor="">Message: </label>
+            {/* cols="30" rows="10" */}
+            <textarea
+              name="message"
+              id=""
+              placeholder="write your message here"
+            ></textarea>
             <button type="submit">Submit</button>
           </form>
         </div>
       </div>
-    </div>
   );
 }
 
