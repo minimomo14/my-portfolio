@@ -33,7 +33,7 @@ function Header() {
                     className={`menu ${isActive ? "active" : "inactive"}`}>
                 <Link className="active" to="/" >Home</Link>
                 <Link to="/about-me">About Me</Link>
-                <Link to="/teachnical-skills">Teachnical Skills</Link>
+                <Link to="/technical-skills">Teachnical Skills</Link>
                 <Link to="/my-projects">My Projects</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/contact-me">Contact</Link>

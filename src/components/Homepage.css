@@ -33,7 +33,7 @@
   box-shadow: 0px 0px 15px #f5f4f4;
 }
 
-.header {
+.banner {
   background-color: var(--light-brown);
   font-size: xx-large;
   font-family: "Poppins", sans-serif;
@@ -41,10 +41,11 @@
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  margin: 0 auto;
+  width: 100vw;
+  /* margin: 0 auto; */
 }
 
-.headerImage {
+.bannerImage {
   align-self: center;
   border: none;
   border-radius: 1rem;
@@ -53,12 +54,12 @@
   transition: all 200s ease-in-out;
 }
 
-.headerImage:hover {
+.bannerImage:hover {
   transform: scale(2.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.headerText-content {
+.bannerText-content {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
@@ -66,12 +67,12 @@
   font-weight: normal;
   font-size: 1.2rem;
 }
-.headerText-content a {
+.bannerText-content a {
   text-decoration: none;
   color: var(--dark);
 }
 
-.headerText-content .view-button {
+.bannerText-content .view-button {
   background-color: var(--cream);
   color: var(--medium-brown);
   border: none;
@@ -85,7 +86,7 @@
   transition: all 200s ease-in-out;
 }
 
-.headerText-content .view-button:hover {
+.bannerText-content .view-button:hover {
   transform: scale(1.05);
   background-color: var(--medium-brown);
   color: var(--cream);

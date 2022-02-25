@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./AboutMe.css";
 
 function AboutMe() {
@@ -24,7 +25,7 @@ function AboutMe() {
           knowing that I’ve improved both the experience of the user and other
           developers working alongside me.
         </p>
-        <button type="submit">Work with me</button>
+        <Link to={"/contact-me"}><button type="submit">Work with me</button></Link>
         </div>
       </div>
     </div>
