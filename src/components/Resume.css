@@ -1,8 +1,10 @@
-.resume .resume-container {
+.resume
+.resume-container {
     background-color: var(--white);
     color: var(--dark-brown);
     width: 80%;
     border-radius: 1rem;
+    border: solid var(--dark-brown);
     padding: 1rem;
     margin: 1.2rem auto;
     display: flex;

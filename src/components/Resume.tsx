@@ -5,8 +5,7 @@ function Resume() {
         <div className="resume">
             <div className="resume-container">
             <h1>My Resume</h1>
-            <h3>Click Download Button down below to save my resume.</h3>
-            <button type="submit">Download</button>
+            <a href={`${process.env.PUBLIC_URL}/resume/my-resume.pdf`} target="_blank">Click here to download my resume.</a>
             </div>
         </div>
     );

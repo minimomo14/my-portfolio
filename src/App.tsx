@@ -23,7 +23,7 @@ function App() {
             <Route path="/technical-skills" element={<TechnicalSkills />} />
             <Route path="/my-projects" element={<MyProjects />} />
             <Route path="/resume" element={<Resume />} />
-            <Route path="contact-me" element={<ContactMe />} />
+            <Route path="/contact-me" element={<ContactMe />} />
           </Routes>
           <Footer />
         </ScrollToTop>
