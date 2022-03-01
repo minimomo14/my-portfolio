@@ -1,6 +1,5 @@
 .myProjects {
     background-color: var(--dark-brown);
-    color: var(--cream);
     margin: 1rem auto;
     padding: 1rem;
     width: 80%;
@@ -13,4 +12,24 @@
 
 .myProjects h1 {
     font-family: 'Poppins', sans-serif;
+}
+
+.myProjects .myProjects-content {
+    background-color: var(--white);
+    color: var(--dark-brown);
+    margin: 1rem auto;
+    padding: 1rem;
+
+}
+.myProjects .myCollaborations-content {
+    background-color: var(--cream);
+    color: var(--dark-brown);
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.myProjects .myProjects-thumbnail > img {
+    padding: 1rem;
+    margin: 0 auto;
+    /* max-height: 300px; */
 }
