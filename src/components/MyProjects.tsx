@@ -98,10 +98,10 @@ function MyProjects() {
               src={`${process.env.PUBLIC_URL}/thumbnail/aboutUs.png`}
               alt=""
             />
-            <img
+            {/* <img
               src={`${process.env.PUBLIC_URL}/thumbnail/services.png`}
               alt=""
-            />
+            /> */}
           </div>
           <div className="myProjects-content-details">
             <p>This project build with: </p>

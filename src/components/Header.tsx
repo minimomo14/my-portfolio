@@ -31,7 +31,7 @@ function Header() {
                 <nav
                     ref={dropdown}
                     className={`menu ${isActive ? "active" : "inactive"}`}>
-                <Link className="active" to="/homepage" >Home</Link>
+                <Link className="active" to="/" >Home</Link>
                 <Link to="/about-me">About Me</Link>
                 <Link to="/technical-skills">Teachnical Skills</Link>
                 <Link to="/my-projects">My Projects</Link>
