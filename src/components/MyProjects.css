@@ -2,7 +2,7 @@
     background-color: var(--dark-brown);
     margin: 1rem auto;
     padding: 1rem;
-    width: 80%;
+    /* width: 80%; */
     border: none;
     border-radius: 1rem;
     display: flex;
@@ -19,17 +19,29 @@
     color: var(--dark-brown);
     margin: 1rem auto;
     padding: 1rem;
+    width: -webkit-fill-available;
 
 }
-.myProjects .myCollaborations-content {
-    background-color: var(--cream);
+
+.myProjects .myProjects-content-eachOne {
+    background-color: var(--white);
     color: var(--dark-brown);
     margin: 1rem auto;
     padding: 1rem;
 }
 
+
+.myProjects .myCollaborations-content {
+    background-color: var(--cream);
+    color: var(--dark-brown);
+    margin: 1rem auto;
+    padding: 1rem;
+    width: -webkit-fill-available;
+}
+
 .myProjects .myProjects-thumbnail > img {
+    display: block;
     padding: 1rem;
     margin: 0 auto;
-    /* max-height: 300px; */
+    max-height: 300px;
 }
